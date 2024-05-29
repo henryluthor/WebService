@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\WebService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|C:\\Users\\hp\\source\\repos\\WebService\\webservice\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|solutionrelative:webservice\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|c:\\users\\hp\\source\\repos\\webservice\\webservice\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|solutionrelative:webservice\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|C:\\Users\\hp\\source\\repos\\WebService\\webservice\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|solutionrelative:webservice\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|C:\\Users\\hp\\source\\repos\\WebService\\webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|solutionrelative:webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|C:\\Users\\hp\\source\\repos\\WebService\\webservice\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|solutionrelative:webservice\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\Web.Release.config",
+              "RelativeDocumentMoniker": "WebService\\Web.Release.config",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\Web.Release.config",
+              "RelativeToolTip": "WebService\\Web.Release.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-28T01:40:57.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\Web.Debug.config",
+              "RelativeDocumentMoniker": "WebService\\Web.Debug.config",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\Web.Debug.config",
+              "RelativeToolTip": "WebService\\Web.Debug.config",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-28T01:40:50.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "WebService\\WebForm1.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\WebForm1.aspx.cs",
+              "RelativeToolTip": "WebService\\WebForm1.aspx.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T23:37:31.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WebService\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\WebForm1.aspx",
+              "RelativeToolTip": "WebService\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T21:43:05.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\Web.config",
+              "RelativeDocumentMoniker": "WebService\\Web.config",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\Web.config",
+              "RelativeToolTip": "WebService\\Web.config",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-27T23:31:20.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
