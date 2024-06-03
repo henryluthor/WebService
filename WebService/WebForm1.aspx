@@ -9,20 +9,20 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <%--<asp:RadioButton ID="cedula" GroupName="filtro" runat="server" Text="Cedula" />--%>
+            <asp:RadioButton ID="cedula" GroupName="filtro" runat="server" Text="Cedula" OnClick="HideInput()" />
+            <asp:TextBox ID="cedulaTextInput" runat="server"></asp:TextBox>
             
-            <input id="cedula" name="filtro" type="radio" onclick="HideInput()" />
+            <%--<input id="cedula" name="filtro" type="radio" onclick="HideInput()" />
             <label for="cedula">Cedula</label>
-
-            <input id="cedulaTextInput" name="cedula" type="text" runat="server" />
+            <input id="cedulaTextInput" name="cedula" type="text" runat="server" />--%>
         </div>
         <div>
-            <%--<asp:RadioButton ID="numcuenta" GroupName="filtro" runat="server" Text="Numero de Cuenta" />--%>
+            <asp:RadioButton ID="numcuenta" GroupName="filtro" runat="server" Text="Numero de Cuenta" OnClick="HideInput()" />
+            <asp:TextBox ID="idProductoTextInput" runat="server"></asp:TextBox>
 
-            <input id="numcuenta" name="filtro" type="radio" onclick="HideInput()" />
+            <%--<input id="numcuenta" name="filtro" type="radio" onclick="HideInput()" />
             <label for="numcuenta">Numero de Cuenta</label>
-
-            <input id="idProductoTextInput" name="idProducto" type="text" runat="server" />
+            <input id="idProductoTextInput" name="idProducto" type="text" runat="server" />--%>
         </div>
         <div>
             <asp:Button ID="btnExecuteSP" runat="server" Text="Consultar (SP)" OnClick="btnExecuteSP_Click" CssClass="btn btn-primary" />
@@ -50,17 +50,16 @@
     $(document).ready(function () {
         $('#cedulaTextInput').hide();
         $('#idProductoTextInput').hide();
+
+        $('#cedula').prop("checked", false);
+        $('#numcuenta').prop("checked", false);
+
+        console.log("Se ha cargado la pagina");
     })
 
 
     function HideInput()
     {
-        console.log("funcion Hideinput");
-
-        var cedulaChecked = $('#cedula').is(':checked');
-        console.log("cedulaChecked:");
-        console.log(cedulaChecked);
-
         if ($('#cedula').is(':checked'))
         {
             $('#idProductoTextInput').hide();

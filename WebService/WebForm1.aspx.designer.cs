@@ -24,13 +24,31 @@ namespace WebService
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// cedula control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton cedula;
+
+        /// <summary>
         /// cedulaTextInput control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText cedulaTextInput;
+        protected global::System.Web.UI.WebControls.TextBox cedulaTextInput;
+
+        /// <summary>
+        /// numcuenta control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton numcuenta;
 
         /// <summary>
         /// idProductoTextInput control.
@@ -39,7 +57,7 @@ namespace WebService
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText idProductoTextInput;
+        protected global::System.Web.UI.WebControls.TextBox idProductoTextInput;
 
         /// <summary>
         /// btnExecuteSP control.

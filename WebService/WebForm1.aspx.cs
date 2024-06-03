@@ -15,6 +15,22 @@ namespace WebService
         protected void Page_Load(object sender, EventArgs e)
         {
             //texto1.InnerText = "Hola";
+
+            //cedulaTextInput.Visible = false;
+            //idProductoTextInput.Visible = false;
+
+            //if (cedula.Checked)
+            //{
+            //    cedulaTextInput.Visible = true;
+            //    idProductoTextInput.Visible = false;
+            //}
+
+            //if (numcuenta.Checked)
+            //{
+            //    cedulaTextInput.Visible = false;
+            //    idProductoTextInput.Visible = true;
+            //}
+            
         }
 
         protected void btnExecuteSP_Click(object sender, EventArgs e)
@@ -35,9 +51,18 @@ namespace WebService
                 {
                     command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    command.Parameters.AddWithValue("@AccountNum", idProductoTextInput.Value);
+                    if(cedula.Checked)
+                    {
+                        //command.Parameters.AddWithValue("@Cedula", cedulaTextInput.Value);
+                        command.Parameters.AddWithValue("@Cedula", cedulaTextInput.Text);
 
-                    command.Parameters.AddWithValue("@Cedula", cedulaTextInput.Value);
+                    }
+                    if(numcuenta.Checked)
+                    {
+                        //command.Parameters.AddWithValue("@AccountNum", idProductoTextInput.Value);
+                        command.Parameters.AddWithValue("@AccountNum", idProductoTextInput.Text);
+                    }
+                    
 
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
 
@@ -61,6 +86,23 @@ namespace WebService
                 }
             }
         }
+
+
+        protected void HideTextbox(object sender, EventArgs e)
+        {
+            if(cedula.Checked)
+            {
+                cedulaTextInput.Visible = true;
+                idProductoTextInput.Visible = false;
+            }
+
+            if(numcuenta.Checked)
+            {
+                cedulaTextInput.Visible = false;
+                idProductoTextInput.Visible = true;
+            }
+        }
+
 
     }
 }
