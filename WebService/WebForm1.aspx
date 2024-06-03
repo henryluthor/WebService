@@ -9,38 +9,48 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <%--<asp:RadioButton ID="cedula" GroupName="filtro" runat="server" Text="Cedula" />--%>
             
-            <input id="cedula" name="filtro" type="radio" />
+            <input id="cedula" name="filtro" type="radio" onclick="HideInput()" />
             <label for="cedula">Cedula</label>
 
             <input id="cedulaTextInput" name="cedula" type="text" runat="server" />
         </div>
         <div>
-            <input id="numcuenta" name="filtro" type="radio" />
+            <%--<asp:RadioButton ID="numcuenta" GroupName="filtro" runat="server" Text="Numero de Cuenta" />--%>
+
+            <input id="numcuenta" name="filtro" type="radio" onclick="HideInput()" />
             <label for="numcuenta">Numero de Cuenta</label>
 
             <input id="idProductoTextInput" name="idProducto" type="text" runat="server" />
         </div>
         <div>
-            <asp:Button ID="btnExecuteSP" runat="server" Text="Consultar (SP)" OnClick="btnExecuteSP_Click" />
+            <asp:Button ID="btnExecuteSP" runat="server" Text="Consultar (SP)" OnClick="btnExecuteSP_Click" CssClass="btn btn-primary" />
         </div>
         <div>
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="true"></asp:GridView>
+            <asp:GridView ID="gridView1" runat="server" AutoGenerateColumns="true"></asp:GridView>
+
+            <asp:GridView ID="gridView2" runat="server" AutoGenerateColumns="true"></asp:GridView>
         </div>
-        <textbox id="texto1" runat="server"></textbox>
+
+        <%--<textbox id="texto1" runat="server"></textbox>--%>
+
     </form>
 </body>
 </html>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 
 <script>
 
-    //$(document).ready(function () {
-    //    $('#cedulaTextInput').hide();
-    //    $('#idProductoTextInput').hide();
-    //})
+    $(document).ready(function () {
+        $('#cedulaTextInput').hide();
+        $('#idProductoTextInput').hide();
+    })
 
 
     function HideInput()

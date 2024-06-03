@@ -14,7 +14,7 @@ namespace WebService
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            texto1.InnerText = "Hola";
+            //texto1.InnerText = "Hola";
         }
 
         protected void btnExecuteSP_Click(object sender, EventArgs e)
@@ -35,34 +35,9 @@ namespace WebService
                 {
                     command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    var valorIdProductoAPasar = "";
-                    var valorCedulaAPasar = "";
-
-                    if(idProductoTextInput.Value == "")
-                    {
-                        //idProductoTextInput.Value = null;
-                        valorIdProductoAPasar = null;
-                    }
-                    else
-                    {
-                        valorIdProductoAPasar = idProductoTextInput.Value;
-                    }
-
-                    if(cedulaTextInput.Value == "")
-                    {
-                        //cedulaTextInput.Value = null;
-                        valorCedulaAPasar = null;
-                    }
-                    else
-                    {
-                        valorCedulaAPasar = cedulaTextInput.Value;
-                    }
-
                     command.Parameters.AddWithValue("@AccountNum", idProductoTextInput.Value);
-                    //command.Parameters.AddWithValue("@AccountNum", valorIdProductoAPasar);
 
                     command.Parameters.AddWithValue("@Cedula", cedulaTextInput.Value);
-                    //command.Parameters.AddWithValue("@Cedula", valorCedulaAPasar);
 
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
 
@@ -70,8 +45,17 @@ namespace WebService
 
                     adapter.Fill(dataset);
 
-                    GridView1.DataSource = dataset.Tables[0];
-                    GridView1.DataBind();
+                    var tableCount = dataset.Tables.Count;
+
+
+                    gridView1.DataSource = dataset.Tables[0];
+                    gridView1.DataBind();
+
+                    if(tableCount > 1)
+                    {
+                        gridView2.DataSource = dataset.Tables[1];
+                        gridView2.DataBind();
+                    }
 
                     //command.ExecuteNonQuery();
                 }
