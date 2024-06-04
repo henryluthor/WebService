@@ -7,10 +7,13 @@
     <title></title>
 </head>
 <body>
+    <h1>BANCO XYZ</h1>
+    <h2>Consultas</h2>
+
     <form id="form1" runat="server">
         <div>
             <asp:RadioButton ID="cedula" GroupName="filtro" runat="server" Text="Cedula" OnClick="HideInput()" />
-            <asp:TextBox ID="cedulaTextInput" runat="server"></asp:TextBox>
+            <asp:TextBox ID="cedulaTextInput" runat="server" ></asp:TextBox>
             
             <%--<input id="cedula" name="filtro" type="radio" onclick="HideInput()" />
             <label for="cedula">Cedula</label>
@@ -53,8 +56,7 @@
 
         $('#cedula').prop("checked", false);
         $('#numcuenta').prop("checked", false);
-
-        console.log("Se ha cargado la pagina");
+        
     })
 
 
@@ -72,4 +74,6 @@
             $('#idProductoTextInput').show();
         }
     }
+
+    
 </script>

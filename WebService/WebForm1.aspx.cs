@@ -18,19 +18,6 @@ namespace WebService
 
             //cedulaTextInput.Visible = false;
             //idProductoTextInput.Visible = false;
-
-            //if (cedula.Checked)
-            //{
-            //    cedulaTextInput.Visible = true;
-            //    idProductoTextInput.Visible = false;
-            //}
-
-            //if (numcuenta.Checked)
-            //{
-            //    cedulaTextInput.Visible = false;
-            //    idProductoTextInput.Visible = true;
-            //}
-            
         }
 
         protected void btnExecuteSP_Click(object sender, EventArgs e)
@@ -40,7 +27,6 @@ namespace WebService
             string connectionString = "Data Source = LAPTOP-R601H3RA\\SQLEXPRESS; Initial Catalog=BGTest; Integrated Security=True";
 
             string storedProcedureName;
-            //storedProcedureName = "AccountData";
             storedProcedureName = "BGSP";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
