@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\WebService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|c:\\users\\hp\\source\\repos\\webservice\\webservice\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|C:\\Users\\hp\\source\\repos\\WebService\\webservice\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|solutionrelative:webservice\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|C:\\Users\\hp\\source\\repos\\WebService\\webservice\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|c:\\users\\hp\\source\\repos\\webservice\\webservice\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8063D847-8240-4DFD-B5E3-382D29903C0F}|WebService\\WebService.csproj|solutionrelative:webservice\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "WebService\\WebForm1.aspx.cs",
               "ToolTip": "C:\\Users\\hp\\source\\repos\\WebService\\WebService\\WebForm1.aspx.cs",
               "RelativeToolTip": "WebService\\WebForm1.aspx.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBcAAAAIAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwDAAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T23:37:31.443Z",
               "EditorCaption": ""

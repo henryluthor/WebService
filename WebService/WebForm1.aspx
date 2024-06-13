@@ -5,6 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .accountGrid > tbody > tr > th,
+        .accountGrid > tbody > tr > td{
+            border: 1px ridge
+        }
+    </style>
 </head>
 <body>
     <h1>BANCO XYZ</h1>
@@ -31,9 +37,9 @@
             <asp:Button ID="btnExecuteSP" runat="server" Text="Consultar (SP)" OnClick="btnExecuteSP_Click" CssClass="btn btn-primary" />
         </div>
         <div>
-            <asp:GridView ID="gridView1" runat="server" AutoGenerateColumns="true"></asp:GridView>
+            <asp:GridView ID="gridView1" runat="server" AutoGenerateColumns="true" CssClass="accountGrid"></asp:GridView>
 
-            <asp:GridView ID="gridView2" runat="server" AutoGenerateColumns="true"></asp:GridView>
+            <asp:GridView ID="gridView2" runat="server" AutoGenerateColumns="true" CssClass="accountGrid"></asp:GridView>
         </div>
 
         <%--<textbox id="texto1" runat="server"></textbox>--%>
